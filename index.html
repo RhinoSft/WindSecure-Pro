@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WindSecure Pro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>WindSecure Pro</h1>
+        <p>Combinando energía eólica y ciberseguridad</p>
+    </header>
+
+    <main>
+        <section id="sam">
+            <h2>Modelo Asesor del Sistema (SAM)</h2>
+            <p>Predicciones de rendimiento y estimaciones de costos para energía eólica.</p>
+            <button id="samBtn">Obtener datos de SAM</button>
+            <div id="samData"></div>
+        </section>
+
+        <section id="dewesoft">
+            <h2>Dewesoft</h2>
+            <p>Monitoreo de parámetros estructurales de turbinas eólicas.</p>
+            <button id="dewesoftBtn">Obtener datos de Dewesoft</button>
+            <div id="dewesoftData"></div>
+        </section>
+
+        <section id="explorer">
+            <h2>Explorador Eólico</h2>
+            <p>Simulación de condiciones de viento y densidad del aire.</p>
+            <button id="explorerBtn">Iniciar simulación</button>
+            <canvas id="windCanvas" width="500" height="300"></canvas>
+        </section>
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
